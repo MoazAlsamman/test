@@ -48,7 +48,7 @@
                                 <div class="text-center">
                                     <img src="../img/icons/logo.png" alt="Charles Hall" class="img-fluid rounded-circle" width="200" height="200" />
                                 </div>
-                                <form class="pt-5">
+                                <form class="pt-5" action="{{route('admin.dashboard')}}">
                                     <div class="row p-1">
                                         <div class="col">
                                             <label class="form-label">Name</label>
@@ -98,7 +98,8 @@
                                         </div>
                                     </div>
                                     <div class="text-center mt-3">
-                                        <a href="index.html" class="btn btn-lg btn-scale">Sign up</a>
+                                    <button type="submit" class="btn btn-lg btn-scale">Sign in</button>
+                                        <!-- <a href="index.html" class="btn btn-lg btn-scale">Sign up</a> -->
                                     </div>
                                     <div class="text-center mt-3">
                                         <a class="h6" href="{{route('admin.login')}}" class="btn btn-lg">I have Account ! </a>

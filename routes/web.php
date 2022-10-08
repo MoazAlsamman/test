@@ -112,7 +112,7 @@ Route::group(['prefix' => 'head'], function(){
 /*      User Route      */
 Route::get('/', function () {
     return view('user.welcome');
-});
+})->name('user.dashboard');
 Route::get('/profile', function () {
     return view('user.profile');
 })->name('user_profile');

@@ -46,7 +46,7 @@
                                 <div class="text-center">
                                     <img src="../img/icons/logo.png" alt="Charles Hall" class="img-fluid rounded-circle" width="200" height="200" />
                                 </div>
-                                <form action="" method="post">
+                                <form action="{{route('user.dashboard')}}" method="get">
                                     <div class="mb-3">
                                         <label class="form-label">Email</label>
                                         <input class="form-control form-control-lg" type="email" name="email" placeholder="Enter your E-mail" />
@@ -72,8 +72,8 @@
                                         </label>
                                     </div>
                                     <div class="text-center mt-3">
-                                        <a href="index.html" class="btn btn-lg btn-scale">Sign in</a>
-                                        <!-- <button type="submit" class="btn btn-lg btn-primary">Sign in</button> -->
+                                        <!-- <a href="index.html" class="btn btn-lg btn-scale">Sign in</a> -->
+                                        <button type="submit" class="btn btn-lg btn-scale">Sign in</button>
                                     </div>
                                 </form>
                             </div>
