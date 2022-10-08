@@ -87,7 +87,7 @@
                                         <a href="#">
                                             <button class="form-control btn btn-outline-danger"><i class="align-middle"
                                                                                                    data-feather="arrow-left"></i>
-                                                Cancel Request
+                                                Cancel
                                             </button>
                                         </a>
                                     </div>

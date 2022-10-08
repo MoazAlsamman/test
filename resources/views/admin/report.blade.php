@@ -10,7 +10,7 @@
                 </div>
                 <div class="col-md-8 col-xl-12" style="width:100%">
                     <div class="card">
-                        <form method="post" action="{{route('admin.    search')}}">
+                        <form method="post" action="{{route('admin.search')}}">
                             @csrf
                             <br>
                             <div class="card h-100">
