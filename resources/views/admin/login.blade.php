@@ -46,7 +46,7 @@
                                 <div class="text-center">
                                     <img src="../img/icons/logo.png" alt="Charles Hall" class="img-fluid rounded-circle" width="200" height="200" />
                                 </div>
-                                <form action="" method="post">
+                                <form action="{{route('admin.dashboard')}}" method="get">
                                     <div class="mb-3">
                                         <label class="form-label">Email</label>
                                         <input class="form-control form-control-lg" type="email" name="email" placeholder="Enter your E-mail" />
@@ -56,7 +56,7 @@
                                         <input class="form-control form-control-lg" type="password" name="password" placeholder="Enter your Password" />
                                         <br>
                                         <small>
-                                            <a class="h6" href="index.html">Forgot password?</a>
+                                            <a class="h6" href="#">Forgot password?</a>
                                         </small> <br>
                                         <small>
                                             <a class="h6" href="{{route('admin.register')}}">I don't have Account ! </a>
@@ -71,8 +71,8 @@
                                         </label>
                                     </div>
                                     <div class="text-center mt-3">
-                                        <a href="index.html" class="btn btn-lg btn-scale">Sign in</a>
-                                        <!-- <button type="submit" class="btn btn-lg btn-primary">Sign in</button> -->
+                                        <!-- <a href="index.html" class="btn btn-lg btn-scale">Sign in</a> -->
+                                        <button type="submit" class="btn btn-lg btn-scale">Sign in</button>
                                     </div>
                                 </form>
                             </div>
