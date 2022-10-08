@@ -23,7 +23,7 @@
                                 <thead>
                                 <tr>
                                     <th><h6>Photo</h6></th>
-                                    <th class="d-none d-xl-table-cell"><h6>Name</h6></th>
+                                    <th ><h6>Name</h6></th>
                                     <th class="d-none d-xl-table-cell"><h6>E-Mail</h6></th>
                                     <th><h6>Department</h6></th>
                                     <th class="d-none d-md-table-cell"><h6>Action</h6></th>
@@ -33,7 +33,7 @@
                                 <tr>
                                     <td><span style="color: #dddee2"> <img src="../img/avatars/avatar.jpg"
                                                                            class="avatar img-fluid me-1"></span></td>
-                                    <td class="d-none d-xl-table-cell"><span
+                                    <td ><span
                                             style="color: #dddee2">Moaz AL-Samman</span></td>
                                     <td class="d-none d-xl-table-cell"><span
                                             style="color: #dddee2">Moaz@scaleda.com</span></td>
@@ -59,7 +59,7 @@
                                 </tr><tr>
                                     <td><span style="color: #dddee2"> <img src="../img/avatars/avatar.jpg"
                                                                            class="avatar img-fluid me-1"></span></td>
-                                    <td class="d-none d-xl-table-cell"><span
+                                    <td ><span
                                             style="color: #dddee2">Moaz AL-Samman</span></td>
                                     <td class="d-none d-xl-table-cell"><span
                                             style="color: #dddee2">Moaz@scaleda.com</span></td>
@@ -85,7 +85,7 @@
                                 </tr><tr>
                                     <td><span style="color: #dddee2"> <img src="../img/avatars/avatar.jpg"
                                                                            class="avatar img-fluid me-1"></span></td>
-                                    <td class="d-none d-xl-table-cell"><span
+                                    <td ><span
                                             style="color: #dddee2">Moaz AL-Samman</span></td>
                                     <td class="d-none d-xl-table-cell"><span
                                             style="color: #dddee2">Moaz@scaleda.com</span></td>
@@ -111,7 +111,7 @@
                                 </tr><tr>
                                     <td><span style="color: #dddee2"> <img src="../img/avatars/avatar.jpg"
                                                                            class="avatar img-fluid me-1"></span></td>
-                                    <td class="d-none d-xl-table-cell"><span
+                                    <td ><span
                                             style="color: #dddee2">Moaz AL-Samman</span></td>
                                     <td class="d-none d-xl-table-cell"><span
                                             style="color: #dddee2">Moaz@scaleda.com</span></td>
