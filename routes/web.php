@@ -79,7 +79,7 @@ Route::post('/search', function (Request $request) {
 Route::group(['prefix' => 'head'], function(){
     Route::get('/', function () {
         return view('head.welcome');
-    });
+    })->name('head.dashboard');;
     Route::get('/profile', function () {
         return view('head.profile');
     })->name('head.profile');
