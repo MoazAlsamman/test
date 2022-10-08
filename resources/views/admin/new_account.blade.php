@@ -13,14 +13,14 @@
                     <div class="col-md-4 col-xl-3">
                         <div class="card mb-3">
                             <div class="card-header">
-                                {{--									<h5 class="card-title mb-0">Profile Details</h5>--}}
+                                {{--<h5 class="card-title mb-0">Profile Details</h5>--}}
                             </div>
                             <div class="card-body text-center" style="padding-bottom: 208px;">
                                 <input type="file" class="avatar-add">
                                 <img src="../img/avatars/avatar-4.jpg" alt="Christina Mason"
                                      class="img-fluid rounded-circle mb-2" width="128" height="128"/>
                                 <div class="text-muted mb-2">
-                                    <input type="text" class="form-control text-muted text-center bg-black border-0"
+                                    <input type="number" class="form-control text-muted text-center bg-black border-0"
                                            placeholder="Add Phone Number">
                                 </div>
                             </div>
@@ -91,7 +91,7 @@
                                         <div class="col">
                                             <a href="#">
                                                 <button class="form-control btn btn-outline-primary"><i
-                                                            class="align-middle" data-feather="save"></i> Create Account
+                                                            class="align-middle" data-feather="save"></i> Create
                                                 </button>
                                             </a>
                                         </div>
@@ -99,7 +99,6 @@
                                             <a href="#">
                                                 <button class="form-control btn btn-outline-danger"><i
                                                             class="align-middle" data-feather="arrow-left"></i> Cancel
-                                                    Create Account
                                                 </button>
                                             </a>
                                         </div>
