@@ -25,7 +25,7 @@
                                     <th><h6>Photo</h6></th>
                                     <th class="d-none d-xl-table-cell"><h6>Name</h6></th>
                                     <th class="d-none d-xl-table-cell"><h6>E-Mail</h6></th>
-                                    <th><h6>Department</h6></th>
+                                   
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -39,7 +39,7 @@
                                             style="color: #dddee2">Moaz AL-Samman</span></td>
                                     <td class="d-none d-xl-table-cell"><span
                                             style="color: #dddee2">Moaz@scaleda.com</span></td>
-                                    <td><span style="color: #dddee2">Development</span></td>
+                                  
                                 </tr>
                                 <tr>
                                     <td>
@@ -51,7 +51,6 @@
                                             style="color: #dddee2">Moaz AL-Samman</span></td>
                                     <td class="d-none d-xl-table-cell"><span
                                             style="color: #dddee2">Moaz@scaleda.com</span></td>
-                                    <td><span style="color: #dddee2">Development</span></td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -63,7 +62,7 @@
                                             style="color: #dddee2">Moaz AL-Samman</span></td>
                                     <td class="d-none d-xl-table-cell"><span
                                             style="color: #dddee2">Moaz@scaleda.com</span></td>
-                                    <td><span style="color: #dddee2">Development</span></td>
+                                   
                                 </tr>
                                 <tr>
                                     <td>
@@ -75,7 +74,7 @@
                                             style="color: #dddee2">Moaz AL-Samman</span></td>
                                     <td class="d-none d-xl-table-cell"><span
                                             style="color: #dddee2">Moaz@scaleda.com</span></td>
-                                    <td><span style="color: #dddee2">Development</span></td>
+                                   
                                 </tr>
                                 </tbody>
                             </table>
