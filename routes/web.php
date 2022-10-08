@@ -42,7 +42,7 @@ Route::get('/profile', function () {
 })->name('admin.profile');
 Route::get('/users', function () { return view('admin.Users'); })->name('admin.users');
 Route::get('/leaves', function () {
-    return view('admin.leaves');
+    return view('admin.Leaves');
 })->name('admin.leaves');
 Route::get('/new-account', function () {
     return view('admin.new_account');
@@ -84,10 +84,10 @@ Route::group(['prefix' => 'head'], function(){
         return view('head.profile');
     })->name('head.profile');
     Route::get('/users', function () {
-        return view('head.users');
+        return view('head.Users');
     })->name('head.users');
     Route::get('/leaves', function () {
-        return view('head.leaves');
+        return view('head.Leaves');
     })->name('head.leaves');
     Route::get('/leaves_management', function () {
         return view('head.Leaves_Management');
