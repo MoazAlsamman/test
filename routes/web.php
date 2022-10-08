@@ -117,7 +117,7 @@ Route::get('/profile', function () {
     return view('user.profile');
 })->name('user_profile');
 Route::get('/leaves', function () {
-    return view('user.leaves');
+    return view('user.Leaves');
 })->name('user_leaves');
 Route::get('/leave_request', function () {
     return view('user.leave_request');
